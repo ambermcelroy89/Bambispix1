@@ -13,10 +13,9 @@
     margin: 0; 
     padding: 0;
 }
-
 body {
     font-size: 2.1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Garamond, Helvetica, sans-serif;
 	background-color: white;
 }
 
@@ -24,7 +23,8 @@ body {
     width: 930px;
     border-width: 1px;
     margin: 0 auto;
-    background-color: CadetBlue;  
+    background-color: CadetBlue;
+	background-attachment:jpg
 }
 
 
@@ -33,22 +33,25 @@ header {
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
-    border: 1px solid DarkCyan;
-    box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+    border: 1px dotted DarkCyan;
+    box-shadow: 5px 5px 5px 0 #888888;
+    border-radius: 25px; 
+	border-radius: 15px;
+	background-color: white;
 }
 
 nav {
-    width: 200px;
-    margin: 0 5px 0 5px; 
-    padding: 25px 10px 0 10px;
+	background-color: light cyan;
+    width:175px;
+    margin: 5px 15px 15px 10px; 
     float: left;
-    text-align: center;
+    text-align: Left;
 }
 
 nav ul {
     font-weight: bold;
     list-style: none;
+	
 }
 
 nav ul li a {
@@ -56,6 +59,8 @@ nav ul li a {
     color: ivory;
     text-decoration: none;
     display:block;
+}
+
 }
 
 nav ul li a:hover {
@@ -71,28 +76,32 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    background-image: url(images/bambispixlog.jpg); 
 }
 
 #main p {
     text-indent: 1.5em;
 }
 
-figure{
-    padding-top: 10px;
+figure#me{
+	padding: 1px 1px 1px 1px;
     text-align: center;
+	height: 180px;
+	width: 180px;
 	opacity: 95%;
 	border-image:30px solid transparent;
-	 border: 1px solid DarkCyan;
-	img {
-	height:200px;
-	width: 200px;
+	border: 10px solid Ivory;
 }
+figure {
+	padding:0;
+	height: 250px;
+	width: 250px;
 }
-
-
 figcaption {
     font-style: italic;
+	font-size: 0.7em;
+	text-align:center;
+	
 }
 
 aside {
@@ -104,7 +113,7 @@ aside {
 
 aside p {
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 h2 {
@@ -125,7 +134,7 @@ footer {
     padding: 10px;
     background-color: gray;
     clear: both;
-    color: wheat;
+    color: ivory;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -139,12 +148,12 @@ footer {
     border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: ivory;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: CadetBlue;
+    color:ivory;
     background-color: grey;
     text-decoration: none;
 }
