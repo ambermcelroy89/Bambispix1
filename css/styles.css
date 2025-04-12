@@ -23,13 +23,13 @@
 
 <header> 
 
-<a href="index.html"><img src="images/bambispixlogo.png" alt="Bambi's Pix Logo"/></a>
+<a href="index.html"><img src="images/bambispixlogo.png" alt="Bambi's Pix Logo" width="fill" /></a>
 
 </header> 
 
 <div id = "wrapper">
 		 
-<nav> 
+<nav horizontal> 
 	<ul>
 	  <li><a href = "index.html">Home</a></li>
 	  <li><a href = "portfolios.html">Sample photos</a></li>
@@ -67,11 +67,11 @@
 	<p>Saturday: 3 p.m. - 6 p.m.</p>
 	<p>Sunday: 3 p.m - 6 p.m.</p>
 
-<figure>
-  <img src = "images/me1.jpg" alt = "Amber McElroy"  />
+<figure id="me">
+  <img src = "images/me.jpg" width="175" height="175" alt = "Amber McElroy"  />
 
   <figcaption>
-   Amber McElroy<br />
+   <br>Amber McElroy<br />
     
   </figcaption> 
 </figure>
