@@ -24,7 +24,6 @@ body {
     border-width: 1px;
     margin: 0 auto;
     background-color: CadetBlue;
-	background-attachment:jpg
 }
 
 
@@ -41,7 +40,7 @@ header {
 }
 
 nav {
-	background-color: light cyan;
+	background-color: Darkcyan;
     width:175px;
     margin: 5px 15px 15px 10px; 
     float: left;
@@ -59,8 +58,6 @@ nav ul li a {
     color: ivory;
     text-decoration: none;
     display:block;
-}
-
 }
 
 nav ul li a:hover {
@@ -84,23 +81,36 @@ nav ul li a:hover {
 }
 
 figure#me{
-	padding: 1px 1px 1px 1px;
+	padding: 0px;
+	margin:10px;
     text-align: center;
-	height: 180px;
-	width: 180px;
+	height: auto;
+	width: auto;
 	opacity: 95%;
-	border-image:30px solid transparent;
-	border: 10px solid Ivory;
+	border: 5px solid Ivory;	
 }
-figure {
-	padding:0;
-	height: 250px;
-	width: 250px;
+figure{
+	display:block;
+	flex-wrap: nowrap;
+	padding: 0px;
+    text-align: center;
+	border: 2px solid DarkCyan;
 }
+img{
+	border-radius:10px;
+	height: 150px;
+	width: auto;
+}
+img#me{
+	border-radius:10px;
+}
+
+
 figcaption {
     font-style: italic;
 	font-size: 0.7em;
-	text-align:center;
+	text-align:left;
+	color: ivory;
 	
 }
 
