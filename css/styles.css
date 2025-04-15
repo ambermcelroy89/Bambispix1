@@ -14,111 +14,122 @@
     padding: 0;
 }
 body {
+	border:none;
     font-size: 2.1em;
     font-family: Garamond, Helvetica, sans-serif;
-	background-color: white;
+	background-color: #164f57;
+
 }
 
 #container {
-    width: 930px;
-    border-width: 1px;
+    width: 960px;
+    border-width: 10px;
     margin: 0 auto;
     background-color: CadetBlue;
 }
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
-    margin-bottom: 30px;
+    width: auto;	/* reduced by 20px to accommodate shadow */
+    margin-bottom: 10px;
     margin-top: 10px;
     text-align: center;
-    border: 1px dotted DarkCyan;
-    box-shadow: 5px 5px 5px 0 #888888;
-    border-radius: 25px; 
-	border-radius: 15px;
+    box-shadow: 5px 5px 5px 0 #164f57;
+    border-radius: 5px; 
 	background-color: white;
 }
 
 nav {
+	padding: 10px 15px;
 	background-color: Darkcyan;
-    width:175px;
+	border-radius:15px;
+    width:96%;
     margin: 5px 15px 15px 10px; 
     float: left;
+	display:inline;
     text-align: Left;
+	overflow: hidden;
 }
 
 nav ul {
-    font-weight: bold;
+	justify-content: center;
+	display: flex;
+	flex-wrap: nowrap;
+	font-weight: bold;
     list-style: none;
 	
 }
 
 nav ul li a {
-    padding: 5px;
-    color: ivory;
-    text-decoration: none;
+    padding:10px 25px;
+    color: #d3d5cf;
+	border: 1px solid #d3d5cf;
+	border-radius: 10px;
     display:block;
 }
 
 nav ul li a:hover {
-    background: gray;
-    border-radius: 10px;
+    background:gray;
+    border-radius: 15px;
     color: white;
 }
 
 #main {
-    width: 446px;
+    width: 600px;
     padding: 10px;
     float: left;
-    color: black;
-    border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/bambispixlog.jpg); 
+    color: #d3d5cf;
+	text-shadow: gray;
 }
 
 #main p {
     text-indent: 1.5em;
+	color:black;
 }
 
 figure#me{
 	padding: 0px;
 	margin:10px;
-    text-align: center;
-	height: auto;
-	width: auto;
+    text-align: left;
+	height:250px;
+	width: 250px;
 	opacity: 95%;
-	border: 5px solid Ivory;	
+	border: 5px solid #d3d5cf;
+	border-radius:10px;
 }
 figure{
 	display:block;
 	flex-wrap: nowrap;
 	padding: 0px;
     text-align: center;
-	border: 2px solid DarkCyan;
+	
 }
 img{
+
 	border-radius:10px;
-	height: 150px;
+	height:250px;
 	width: auto;
 }
 img#me{
 	border-radius:10px;
+	margin:0px;
 }
 
 
 figcaption {
     font-style: italic;
-	font-size: 0.7em;
-	text-align:left;
-	color: ivory;
+	font-size: 0.5em;
+	text-align:center;
+	color: #d3d5cf;
+	
 	
 }
 
 aside {
-    width: 200px;
-    margin: 0 5px 0 5px;
-    padding: 10px;
-    float: right;
+    width: 250px;
+    margin: 5px 5px 5px 5px;
+    padding: 1px;
+    float: left;
 }
 
 aside p {
@@ -130,21 +141,23 @@ h2 {
     font-size: 1.4em;
     text-align: center;
     padding-bottom: 0.5em;
+	
 }
 
 h3 {
     text-align: center;
+	color:#d3d5cf;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
 
 footer {
-    width: 910px;
+    width: auto;
     margin: 0;
-    padding: 10px;
+  
     background-color: gray;
     clear: both;
-    color: ivory;
+    color: #d3d5cf;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -153,17 +166,16 @@ footer {
 
 #wrapper {
     width: 930px;
-    margin-bottom: 10px;
-    border: 2px solid;
-    border-radius: 25px;
+ 
+   
 }/* navigation for footer */
 footer a:link {
-    color: ivory;
+    color: #d3d5cf;
     text-decoration: none;
 }
 
 footer a:visited {
-    color:ivory;
+    color:#d3d5cf;
     background-color: grey;
     text-decoration: none;
 }
