@@ -3,10 +3,10 @@
   <head>
 	<!-- 
 		Final Project CMIS 410
-		Author: Amber McElroy
+		Autdor: Amber McElroy
 		Date: 4/6/25
 		
-		These web pages are for educational purposes only, all content should be considered fictional. 
+		tdese web pages are for educational purposes only, all content should be considered fictional. 
 	
 	-->
 
@@ -39,40 +39,69 @@
 	  <li><a href = "Contactus.html">Contact us</a></li>
 	</ul>
 </nav> 
-<div id="quotes">	 
-<article> 
+ 
 
-<h2>Reviews</h2>
-<article>
+<h2>Contact Info</h2>
+<p> Our mission at Bambi's pix will always remain tde same. We strive to make your memories last a lifetime. Please contact us here and let us know what you are most interested in.</p>
 
-<blockquote>
-<p>“My senior photos are amazing. Amber takes the time to understand how your personality factors into style.”</p>
-~Jennifer Moore
-	<figure id="senior profile photo">
-		<img src = "images/seniorphoto1.jpg" alt = "Jennifer Moore"/>
-	</figure>
-</blockquote>
 
-<blockquote>
-<p> "We have been using Bambi for our children’s school photos for years. She surpassed our expectations with our wedding photos as well”</p>
-~Mr. and Mrs. Sanchez
-	<figure id="wedding photo">
-		<img src = "images/keishaandrich.jpg" alt = "The Sanchez Wedding photo"/>
-	</figure>
-</blockquote>
 
-<blockquote>
-<p>“Bambi is our go to girl when it comes to capturing our kiddos. She gets on their level, plays and jokes with them to make them feel comfortable. We couldn’t ask for a kinder and more capable photographer”<p>
-~ Manny, Rene, and Kids
-	<figure id="profilephoto">
-		<img src = "images/mannykidsbambispix.jpg" alt = "Manny and Rene's children"/>
-	</figure>
-</blockquote>
+<h2> Let us know how we can build memories together.</h2>
+<form id="Contactform">
+	
+	<fieldset id="shareinfo">
+		<legend> </legend>
+		
+		<div class= "formRow">
+			<label for="Date"> Date of services </label>
+			<input name="Date" id="date" type= "date"/>
+		</div>
+		
+		<div class="formRow">
+			<label id="orderType"> Service type</label>
+			<select name= "serviceType" id="service">
+				<option value= "order1"> Family </option>
+				<option value= "order2"> Large Group </option>
+				<option value= "order2"> Single Model </option>
+				<option value= "Event/Holiday" selected > Event/holiday </option> 
+				<option value= "Otder"> describe below </option>
+			</select>
+		</div>
+		
+		<label id="comBox"> How can we help! </label>
+		<div>
+		<textarea name= "CustExp" id="comBox"> </textarea>
+		</div>
+		<div id="buttons">
+			<input type= "submit" value="Submit My Survey"/>
+			<input type= "reset" value= "Cancel" />
+		</div>
+	</fieldset>
+	</form>
+
+<h2>Pricing</h2>
+
+	<table class="pricing">
+
+	<tr>
+		<th> Service:</th>
+		<td> Minimum Hourly Price</td>
+		<td> Family</td>
+		<td> Large Groups</td>
+		<td> Single Model Portrait</td>
+		<td> Events and Holidays</td>
+	</tr>
+	<tr>
+		<th> Price:</th>
+		<td> $75 up to 2 hours +$35 per hour additional</td>
+		<td> $150 up to 7 Individuals per hour</td>
+		<td> $250 7+ Individuals per hour</td>
+		<td>$100 up to 2 hours </td>
+		<td> $600 for up to 3 hours</td>
+	</tr>
+</table>
+
 </div>
-
-
-
-</article>
  <!-- end main -->
 
   
@@ -91,7 +120,7 @@
 </footer>  
 
 </div> <!-- end wrapper --> 
-</div> <!-- end container -->
+
 
 </body>
 </html>
